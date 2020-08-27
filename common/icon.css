@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1880882 */
+  src: url('//at.alicdn.com/t/font_1880882_keq51lbjmv.eot');
+  src: url('//at.alicdn.com/t/font_1880882_keq51lbjmv.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1880882_keq51lbjmv.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1880882_keq51lbjmv.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1880882_keq51lbjmv.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1880882_keq51lbjmv.svg#iconfont') format('svg');
+}
+/* @font-face {
+	font-family: "Dosis Bold";
+	src: url('https://img.kags.cn/static/kagsmp/font/dosis-bold.ttf');
+} */
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 60upx;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-right: 14rpx;
+}

@@ -1,0 +1,367 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "玺廷膳贡"
+			}
+		},
+		{
+		    "path" : "pages/know/know",
+		    "style" : {
+				"navigationBarTitleText": "膳识"
+			}
+		},
+		{
+		    "path" : "pages/classify/classify",
+		    "style" : {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		// {
+		//     "path" : "pages/topic/topic",
+		//     "style" : {
+		// 		"navigationBarTitleText": "膳慧",
+		// 		"enablePullDownRefresh" : true
+		// 	}
+		// },
+		{
+		    "path" : "pages/cart/cart",
+		    "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+		    "path" : "pages/personal/personal",
+		    "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+    ],
+	//分包
+	"subPackages": [
+		{
+		    "root" : "pages/doctor/",
+		    "pages" : [
+				{
+					"path":"recommend_list",
+					"style":{
+						"navigationBarTitleText":"邀请记录"
+					}
+				},
+				{
+					"path":"recommend/recommend",
+					"style":{
+						"navigationBarTitleText":"我的推荐"
+					}
+				},
+				{
+					"path":"article_detail",
+					"style":{
+						"navigationBarTitleText":"文章详情"
+					}
+				},
+				{
+					"path":"article",
+					"style":{
+						"navigationBarTitleText":"医生文章"
+					}
+				},
+				{
+					"path":"integral",
+					"style":{
+						"navigationBarTitleText":"我的积分"
+					}
+				},
+				{
+					"path":"fans",
+					"style":{
+						"navigationBarTitleText":"我的粉丝"
+					}
+				},
+				{
+					"path":"info",
+					"style":{
+						"navigationBarTitleText":"医生信息"
+					}
+				},
+				{
+					"path":"password",
+					"style":{
+						"navigationBarTitleText":"修改密码"
+					}
+				},
+				{
+					"path":"balance",
+					"style":{
+						"navigationBarTitleText":"我的余额"
+					}
+				}
+				
+			    ,{
+                    "path" : "auth",
+                    "style" : {
+						"navigationBarTitleText":"医生认证"
+					}
+                }
+            ]
+		},
+		{
+		    "root" : "pages/login/",
+		    "pages" : [
+				{
+					"path":"login",
+					"style":{
+						"navigationBarTitleText":"登录"
+					}
+				},
+				{
+					"path":"user_contion",
+					"style":{
+						"navigationBarTitleText":"选择体质"
+					}
+				},
+				{
+					"path":"add_mobile",
+					"style":{
+						"navigationBarTitleText":"补充手机号码"
+					}
+				}
+			]
+		},
+		{
+		    "root" : "pages/user/",
+		    "pages" : [
+				{
+					"path":"vip",
+					"style":{
+						"navigationBarTitleText":"会员"
+					}
+				},
+				{
+					"path":"family",
+					"style":{
+						"navigationBarTitleText":"家人朋友"
+					}
+				},
+				{
+					"path":"address",
+					"style":{
+						"navigationBarTitleText":"地址管理"
+					}
+				},
+				{
+					"path":"rating",
+					"style":{
+						"navigationBarTitleText":"我的评价"
+					}
+				},
+				{
+					"path":"rate",
+					"style":{
+						"navigationBarTitleText":"我的评价"
+					}
+				}
+			    ,{
+                    "path" : "user_msg",
+                    "style" : {
+						"navigationBarTitleText":"个人信息"
+					}
+                },{
+                    "path" : "body",
+                    "style" : {
+						"navigationBarTitleText":"我的体质"
+					}
+                },{
+                    "path" : "add_family",
+                    "style" : {
+						"navigationBarTitleText":"添加家人"
+					}
+                }
+                ,{
+                    "path" : "user_collection",
+                    "style" : {
+						"navigationBarTitleText":"我的收藏"
+					}
+                }
+            ]
+		},
+		{
+		    "root" : "pages/recom/",
+		    "pages" : [
+				{
+					"path":"recom",
+					"style":{
+						"navigationBarTitleText":"推荐"
+					}
+				}
+				
+			]
+		},
+		{
+			"root":"pages/authorize/",
+			"pages":[
+				{
+					"path":"authorize",
+					"style":{
+						"navigationBarTitleText":"授权登录"
+					}
+				},
+				{
+					"path":"answer",
+					"style":{
+						"navigationBarTitleText":"测试体质"
+					}
+				}
+			]
+		},
+		{
+			"root":"pages/setting/",
+			"pages":[
+				{
+					"path":"exit",
+					"style":{
+						"navigationBarTitleText":"帐号管理"
+					}
+				},
+				{
+					"path":"problem",
+					"style":{
+						"navigationBarTitleText":"常见问题"
+					}
+				},
+				{
+					"path":"privacy_policy",
+					"style":{
+						"navigationBarTitleText":"隐私政策"
+					}
+				},
+				{
+					"path":"user_policy",
+					"style":{
+						"navigationBarTitleText":"服务协议"
+					}
+				}
+			]
+		},
+		{
+			"root":"pages/order/",
+			"pages":[
+				{
+					"path":"order_list",
+					"style":{
+						"navigationBarTitleText":"我的订单"
+					}
+				},
+				{
+					"path":"order_detail",
+					"style":{
+						"navigationBarTitleText":"订单详情"
+					}
+				},
+				{
+					"path":"pay_success",
+					
+					"style":{
+						"navigationStyle":"custom",
+						"navigationBarTitleText":"支付订单"
+					}
+				}
+			]
+		},
+		{
+		    "root" : "pages/goods/",
+		    "pages" : [
+				{
+					"path":"goods_cate_list",
+					"style":{
+						"navigationBarTitleText":"分类详情"
+					}
+				},
+				{
+					"path":"goods_detail",
+					"style":{
+						"navigationBarTitleText":"商品详情"
+					}
+				},
+				{
+					"path":"submit_order",
+					"style":{
+						"navigationBarTitleText":"提交订单"
+					}
+				}
+			]
+		},
+		{
+		    "root" : "pages/news/",
+		    "pages" : [
+				{
+					"path":"index",
+					"style":{
+						"navigationBarTitleText":"文章详情"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "玺廷膳贡",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+	,
+	"tabBar": {
+	    "color": "#DDD4C4",
+	    "selectedColor": "#E1BD5B",
+	    "backgroundColor": "#02554A",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/index-off.png",
+	        "selectedIconPath":"static/tabbar/index-on.png",
+	        "text": "首页"
+	    },
+		{
+		    "pagePath": "pages/know/know",
+		   "iconPath": "static/tabbar/topic-off.png",
+		   "selectedIconPath":"static/tabbar/topic-on.png",
+		    "text": "膳识"
+		},{
+	        "pagePath": "pages/classify/classify",
+	        "iconPath": "static/tabbar/classify-off.png",
+	        "selectedIconPath":"static/tabbar/classify-on.png",
+	        "text": "分类"
+	    },
+		// {
+	 //        "pagePath": "pages/topic/topic",
+	 //       "iconPath": "static/tabbar/topic-off.png",
+	 //       "selectedIconPath":"static/tabbar/topic-on.png",
+	 //        "text": "膳慧"
+	 //    },
+		{
+	        "pagePath": "pages/cart/cart",
+	        "iconPath": "static/tabbar/cart-off.png",
+	        "selectedIconPath":"static/tabbar/cart-on.png",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/personal/personal",
+	        "iconPath": "static/tabbar/personal-off.png",
+	        "selectedIconPath":"static/tabbar/personal-on.png",
+	        "text": "我的"
+	    }]
+	}
+	,
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
